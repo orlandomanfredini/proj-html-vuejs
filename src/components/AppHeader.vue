@@ -4,10 +4,13 @@
             <div class="row">
                 <img :src="store.logo" alt="">
 
-                
+
                 <ul class="link">
-                    <AppLinkHeader v-for="(link, i) in store.linkHeader" :key="i" :links="link"/>
+                    <AppLinkHeader v-for="(link, i) in store.linkHeader" :key="i" :links="link" />
+                    <font-awesome-icon class="icon-header" :icon="['fas', 'magnifying-glass']" />
                 </ul>
+
+
             </div>
         </div>
     </header>
@@ -18,7 +21,7 @@ import { store } from '../store';
 import AppLinkHeader from './AppLinkHeader.vue';
 
 export default {
-    components : {
+    components: {
         AppLinkHeader,
     },
     data() {
@@ -49,11 +52,18 @@ header {
                 max-width: 110px;
             }
 
-            .link{
+            .link {
                 display: flex;
-                gap: 20px;
+                gap: 25px;
                 align-self: center;
+
+                .icon-header {
+                    color: white;
+                    align-self: center;
+                }
             }
+
+
         }
     }
 

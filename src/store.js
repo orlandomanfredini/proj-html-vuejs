@@ -5,17 +5,17 @@ export const store = reactive ({
     linkHeader: [
         {
             src: '#',
-            name: 'Home',
+            name: 'HOME',
 
         },
         {
             src: '#',
-            name: 'Blog',
+            name: 'BLOG',
 
         },
         {
             src: '#',
-            name: 'Events',
+            name: 'EVENTS',
             events: [
                 {
                     name: 'Summer festival',
@@ -31,22 +31,22 @@ export const store = reactive ({
         },
         {
             src: '#',
-            name: 'Gallery',
+            name: 'GALLERY',
 
         },
         {
             src: '#',
-            name: 'About us',
+            name: 'ABOUT US',
 
         },
         {
             src: '#',
-            name: 'Contact us',
+            name: 'CONTACT US',
 
         },
         {
             src: '#',
-            name: 'Shop',
+            name: 'SHOP',
             shop: [
                 {
                     title: 'New arrivals'
