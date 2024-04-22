@@ -2,6 +2,7 @@ import { reactive } from 'vue'
 
 export const store = reactive ({
     logo: '/assetsImg/Logo.png',
+    jumboImg: '../public/imageJumbo.png',
     linkHeader: [
         {
             src: '#',

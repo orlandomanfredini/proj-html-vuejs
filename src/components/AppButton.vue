@@ -1,19 +1,13 @@
 <template>
-    <main>
-       <AppHero />
-    </main>
+    <button>READE MORE</button>
 </template>
 
 <script>
 import { store } from '../store';
-import AppHero from './AppHero.vue';
 
     export default {
-        components: {
-            AppHero,
-        },
         data(){
-            return {
+            return{
                 store: store,
             }
         }
@@ -21,5 +15,12 @@ import AppHero from './AppHero.vue';
 </script>
 
 <style lang="scss" scoped>
+
+button{
+    padding: 10px 32px;
+    border: 1px solid rgb(242, 134, 10) ;
+    background: transparent;
+    color: white;
+}
 
 </style>
