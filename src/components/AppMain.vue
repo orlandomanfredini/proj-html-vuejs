@@ -3,6 +3,7 @@
        <AppHero />
        <AppBedges class="bedges" />
        <AppWhoAre />
+       <AppSectionVideo />
        
     </main>
 </template>
@@ -12,12 +13,14 @@ import { store } from '../store';
 import AppHero from './AppHero.vue';
 import AppBedges from './AppBedges.vue';
 import AppWhoAre from './AppWhoAre.vue';
+import AppSectionVideo from './AppSectionVideo.vue';
 
     export default {
         components: {
             AppHero,
             AppBedges,
             AppWhoAre,
+            AppSectionVideo,
         },
         data(){
             return {

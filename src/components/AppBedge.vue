@@ -45,7 +45,7 @@ import { store } from '../store';
     }
 
     p{
-        font-size: 13px;
+        font-size: 12px;
         color: rgb(176, 171, 171)
     }
 }

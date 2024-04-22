@@ -57,7 +57,7 @@ section {
 
             p {
                 color: rgb(167, 165, 165);
-                font-size: 13px;
+                font-size: 12px;
             }
 
             .btn{

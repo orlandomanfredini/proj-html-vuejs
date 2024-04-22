@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    padding: 20px;
+    padding: 20px 30px;
     background-color: black;
 
     .container {
