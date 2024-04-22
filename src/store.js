@@ -81,7 +81,14 @@ export const store = reactive ({
             title: 'ACOUSTIC COVERS',
             text: 'Contray popoular Belief, Lorem Ipsum not simply random text'
         }
-    ]
+    ],
+    whoWeAre: 
+        {
+            strong: 'WHO WE ARE',
+            title: 'Sense the Jazz',
+            text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.'
+        }
+    
 
 })
 

@@ -52,7 +52,7 @@ import AppButton from './AppButton.vue';
         h1{
             font-size: 48px;
             color: white;
-            margin-top: 20px;
+            margin-top: 40px;
             position: absolute;
             top: 30%;
             left: 50%;
@@ -61,7 +61,7 @@ import AppButton from './AppButton.vue';
 
         .button{
             position: absolute;
-            top: 50%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
                 

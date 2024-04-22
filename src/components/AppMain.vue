@@ -2,6 +2,7 @@
     <main>
        <AppHero />
        <AppBedges class="bedges" />
+       <AppWhoAre />
        
     </main>
 </template>
@@ -10,11 +11,13 @@
 import { store } from '../store';
 import AppHero from './AppHero.vue';
 import AppBedges from './AppBedges.vue';
+import AppWhoAre from './AppWhoAre.vue';
 
     export default {
         components: {
             AppHero,
             AppBedges,
+            AppWhoAre,
         },
         data(){
             return {
