@@ -64,6 +64,23 @@ export const store = reactive ({
             ]
 
         },
+    ],
+    badges: [
+        {
+            src: '../public/assetsImg/badge.svg',
+            title: 'ORIGINAL IDEAS',
+            text: 'Contray popoular Belief, Lorem Ipsum not simply random text'
+        },
+        {
+            src: '../public/assetsImg/badge2.svg',
+            title: 'MUSIC STUDIO',
+            text: 'Contray popoular Belief, Lorem Ipsum not simply random text'
+        },
+        {
+            src: '../public/assetsImg/badge3.svg',
+            title: 'ACOUSTIC COVERS',
+            text: 'Contray popoular Belief, Lorem Ipsum not simply random text'
+        }
     ]
 
 })
