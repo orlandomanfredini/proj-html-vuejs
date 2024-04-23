@@ -5,7 +5,7 @@
             <div class="body-card">
                 <h5>{{ cardsInfo.title }}</h5>
                 <span>Stream on:</span>
-                <AppIconStream class="icon" v-for="(icon, i) in streamIcon" :key="i" :iconStreaming="icon" />
+                <AppIconStream class="icon" v-for="(icon, i) in store.streamIcon" :key="i" :iconStreaming="icon" />
             </div>
 
         </div>
@@ -24,13 +24,7 @@ export default {
     data() {
         return {
             store: store,
-            streamIcon: [
-                ['fab', 'spotify'],
-                ['fab', 'youtube'],
-                ['fas', 'music'],
-                ['fab', 'soundcloud'],
-                ['fab', 'safari'],
-            ]
+            
         }
     }
 }

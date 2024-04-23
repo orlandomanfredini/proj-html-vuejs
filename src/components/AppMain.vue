@@ -6,6 +6,7 @@
        <AppSectionVideo />
        <AppCards />
        <AppAlbum />
+       <AppReports />
        
     </main>
 </template>
@@ -18,6 +19,7 @@ import AppWhoAre from './AppWhoAre.vue';
 import AppSectionVideo from './AppSectionVideo.vue';
 import AppCards from './AppCards.vue';
 import AppAlbum from './AppAlbum.vue';
+import AppReports from './AppReports.vue';
 
     export default {
         components: {
@@ -27,6 +29,7 @@ import AppAlbum from './AppAlbum.vue';
             AppSectionVideo,
             AppCards,
             AppAlbum,
+            AppReports,
         },
         data(){
             return {

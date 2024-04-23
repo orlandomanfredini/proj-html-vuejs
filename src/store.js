@@ -126,11 +126,40 @@ export const store = reactive ({
             
         },
     ],
+    streamIcon: [
+        ['fab', 'spotify'],
+        ['fab', 'youtube'],
+        ['fas', 'music'],
+        ['fab', 'soundcloud'],
+        ['fab', 'safari'],
+    ],
     albumOut: {
         title: 'ALBUM OUT NOW',
         strong:'INSTRUMENTAL ROCK',
         src: '../public/assetsImg/cms_parallax.jpg'
-    }
+    },
+    reportsConcerts: [
+        {
+            icon: '../public/assetsImg/imageReport.svg',
+            number: 163,
+            id: 'CONCERTS'
+        },
+        {
+            icon: '../public/assetsImg/imageReport2.svg',
+            number: 145,
+            id: 'HAPPY CLIENTS'
+        },
+        {
+            icon: '../public/assetsImg/imageReport3.svg',
+            number: 72,
+            id: 'MUSIC AWARDS'
+        },
+        {
+            icon: '../public/assetsImg/imageReport4.svg',
+            number: 182,
+            id: 'TOTAL SONGS'
+        }
+    ]
 
     
 
