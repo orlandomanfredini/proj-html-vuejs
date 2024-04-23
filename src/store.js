@@ -93,7 +93,46 @@ export const store = reactive ({
         src:  '../public/assetsImg/Video.jpg',
         title: 'NEW MUSIC VIDEO'
 
+    },
+    cardsStreaming: [
+        {
+            src: '../public/assetsImg/gallery1.jpg',
+            title: 'A ROLL AND BANG THE FLOOR',
+            
+        },
+        {
+            src: '../public/assetsImg/gallery2.jpg',
+            title: 'YOUR MELODY TO OUR MUSIC',
+            
+        },
+        {
+            src: '../public/assetsImg/gallery3.jpg',
+            title: 'TOUCHING HEAVEN ON FREQUENCY',
+            
+        },
+        {
+            src: '../public/assetsImg/gallery4.jpg',
+            title: 'MUSIC MAKES STRONG BEATS',
+            
+        },
+        {
+            src: '../public/assetsImg/gallery5.jpg',
+            title: 'SOUND IS THE SPARK OF TIME',
+            
+        },
+        {
+            src: '../public/assetsImg/gallery6.jpg',
+            title: 'MAKE YOUR NIGHT GROOVY',
+            
+        },
+    ],
+    albumOut: {
+        title: 'ALBUM OUT NOW',
+        strong:'INSTRUMENTAL ROCK',
+        src: '../public/assetsImg/cms_parallax.jpg'
     }
+
+    
 
 })
 

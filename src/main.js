@@ -8,9 +8,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faMagnifyingGlass, faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faPlay, faMusic} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faMagnifyingGlass, faPlay)
+import {faSafari , faSpotify,  faYoutube , faSoundcloud} from '@fortawesome/free-brands-svg-icons'
+
+library.add(faMagnifyingGlass, faPlay, faSafari, faSpotify, faYoutube, faMusic, faSoundcloud )
 
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)

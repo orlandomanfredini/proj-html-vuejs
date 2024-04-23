@@ -4,6 +4,8 @@
        <AppBedges class="bedges" />
        <AppWhoAre />
        <AppSectionVideo />
+       <AppCards />
+       <AppAlbum />
        
     </main>
 </template>
@@ -14,6 +16,8 @@ import AppHero from './AppHero.vue';
 import AppBedges from './AppBedges.vue';
 import AppWhoAre from './AppWhoAre.vue';
 import AppSectionVideo from './AppSectionVideo.vue';
+import AppCards from './AppCards.vue';
+import AppAlbum from './AppAlbum.vue';
 
     export default {
         components: {
@@ -21,6 +25,8 @@ import AppSectionVideo from './AppSectionVideo.vue';
             AppBedges,
             AppWhoAre,
             AppSectionVideo,
+            AppCards,
+            AppAlbum,
         },
         data(){
             return {
