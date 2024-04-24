@@ -8,6 +8,7 @@
        <AppAlbum />
        <AppReports />
        <AppBlog />
+       <AppPosts />
        
     </main>
 </template>
@@ -22,6 +23,7 @@ import AppCards from './AppCards.vue';
 import AppAlbum from './AppAlbum.vue';
 import AppReports from './AppReports.vue';
 import AppBlog from './AppBlog.vue';
+import AppPosts from './AppPosts.vue';
 
 
     export default {
@@ -34,6 +36,7 @@ import AppBlog from './AppBlog.vue';
             AppAlbum,
             AppReports,
             AppBlog,
+            AppPosts
         },
         data(){
             return {

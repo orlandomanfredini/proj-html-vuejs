@@ -188,6 +188,57 @@ export const store = reactive ({
             }
         ]
     },
+    postImg: [
+        '../public/assetsImg/instagram_img1.jpg',
+        '../public/assetsImg/instagram_img2.jpg',
+        '../public/assetsImg/instagram_img3.jpg',
+        '../public/assetsImg/instagram_img4.jpg',
+        '../public/assetsImg/instagram_img5.jpg',
+        '../public/assetsImg/instagram_img6.jpg'
+    ],
+    bookings:
+        {
+            title: 'BOOKINGS',
+            info: [
+                '502 new Disign Str.',
+                'Melbourne, San Francisco',
+                'CA. 94110, Unitend States of America Australia',
+                'T: 1123-456-789',
+                'e-mail: demo.example.com'
+            ],
+            icon: [
+                '../public/assetsImg/instagram.svg',
+                '../public/assetsImg/facebook.svg',
+                '../public/assetsImg/twitter.svg',
+                '../public/assetsImg/youtube.svg'
+                
+            ]
+    },
+    linkFooter: [
+        {
+            title: 'INFORMATION',
+            src: '#',
+            links: [
+                'Product support',
+                'Checkout',
+                'Report Abuse',
+                'Redeem Voucher',
+                'Order Status'
+            ]
+        },
+        {
+            title: 'SUPPORT',
+            src:'#',
+            links:[
+                'Policeis & Rule',
+                'Privacy Policy',
+                'License Policy',
+                'My account',
+                'Locality'
+            ]
+        }
+    ]
+
 
     
 
