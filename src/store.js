@@ -237,7 +237,10 @@ export const store = reactive ({
                 'Locality'
             ]
         }
-    ]
+    ],
+    credit: {
+        text: ' © 2023 All Right Reserved Developed by Orlando'
+    }
 
 
     
