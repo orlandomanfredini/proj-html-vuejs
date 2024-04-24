@@ -159,7 +159,35 @@ export const store = reactive ({
             number: 182,
             id: 'TOTAL SONGS'
         }
-    ]
+    ],
+    blog: {
+        strong: 'MUSIC BLOG',
+        title: 'BEST MUSIC BLOG',
+        best: [
+            {
+                src: '../public/assetsImg/blog2.jpg',
+                title: 'HIP HOP WIRED TO DANCE MAKE',
+                icon: ['fas', 'calendar'],
+                date: '06 November 2021',
+                text: 'Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+
+            },
+            {
+                src: '../public/assetsImg/blog.jpg',
+                title: 'MUSIC BUISNESS WORLD WIDE',
+                icon: ['fas', 'calendar'],
+                date: '27 May 2022',
+                text: 'Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.' 
+            },
+            {
+                src: '../public/assetsImg/blog3.jpg',
+                title: 'GIVEAWAYS ROCK AND ROLL',
+                icon: ['fas', 'calendar'],
+                date: '07 May 2022',
+                text: 'Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+            }
+        ]
+    },
 
     
 

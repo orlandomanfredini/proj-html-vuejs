@@ -40,6 +40,10 @@ import { store } from '../store';
             max-width: 40px;
             max-height: 40px;
         }
+
+        h3{
+            font-size: 26px;
+        }
         
     }
 }

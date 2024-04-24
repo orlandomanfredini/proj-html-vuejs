@@ -7,6 +7,7 @@
        <AppCards />
        <AppAlbum />
        <AppReports />
+       <AppBlog />
        
     </main>
 </template>
@@ -20,6 +21,8 @@ import AppSectionVideo from './AppSectionVideo.vue';
 import AppCards from './AppCards.vue';
 import AppAlbum from './AppAlbum.vue';
 import AppReports from './AppReports.vue';
+import AppBlog from './AppBlog.vue';
+
 
     export default {
         components: {
@@ -30,6 +33,7 @@ import AppReports from './AppReports.vue';
             AppCards,
             AppAlbum,
             AppReports,
+            AppBlog,
         },
         data(){
             return {
