@@ -7,7 +7,8 @@
 
                 <ul class="link">
                     <AppLinkHeader v-for="(link, i) in store.linkHeader" :key="i" :links="link" :index="i" />
-                    <font-awesome-icon class="icon-header" :icon="['fas', 'magnifying-glass']" />
+                    <font-awesome-icon @click="searchBar()" class="icon-header" :icon="['fas', 'magnifying-glass']" />
+                    <AppInputSearch :input="store.visibleInput" />
                 </ul>
 
 
@@ -18,15 +19,27 @@
 
 <script>
 import { store } from '../store';
+import AppInputSearch from './AppInputSearch.vue';
 import AppLinkHeader from './AppLinkHeader.vue';
 
 export default {
     components: {
         AppLinkHeader,
+        AppInputSearch,
     },
     data() {
         return {
             store: store,
+        }
+    },
+    methods: {
+        searchBar(){
+            
+            if(this.store.visibleInput === false){
+                return this.store.visibleInput = true;
+            }else{
+                return this.store.visibleInput = false;
+            }
         }
     }
 }
@@ -55,7 +68,7 @@ header {
             .link {
                 display: flex;
                 gap: 25px;
-                align-self: center;
+                align-items: center;
 
                 .icon-header {
                     color: white;

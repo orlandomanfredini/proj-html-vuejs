@@ -3,6 +3,7 @@ import { reactive } from 'vue'
 export const store = reactive ({
     logo: '/assetsImg/Logo.png',
     jumboImg: '../public/imageJumbo.png',
+    visibleInput: false,
     linkHeader: [
         {
             src: '#',
@@ -71,7 +72,6 @@ export const store = reactive ({
 
         },
     ],
-    
     badges: [
         {
             src: '../public/assetsImg/badge.svg',
