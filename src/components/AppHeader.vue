@@ -6,7 +6,7 @@
 
 
                 <ul class="link">
-                    <AppLinkHeader v-for="(link, i) in store.linkHeader" :key="i" :links="link" />
+                    <AppLinkHeader v-for="(link, i) in store.linkHeader" :key="i" :links="link" :index="i" />
                     <font-awesome-icon class="icon-header" :icon="['fas', 'magnifying-glass']" />
                 </ul>
 

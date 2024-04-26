@@ -17,7 +17,9 @@ export const store = reactive ({
         {
             src: '#',
             name: 'EVENTS',
-            events: [
+            icon:['fas', 'chevron-down'],
+            visible: false,
+            link: [
                 {
                     name: 'Summer festival',
                 },
@@ -26,7 +28,8 @@ export const store = reactive ({
                 },
                 {
                     name: 'Barccellona bus party'
-                }
+                },
+                
             ]
 
         },
@@ -48,23 +51,27 @@ export const store = reactive ({
         {
             src: '#',
             name: 'SHOP',
-            shop: [
+            icon: ['fas', 'chevron-down'],
+            visible: false,
+            link: [
                 {
-                    title: 'New arrivals'
+                    name: 'New arrivals'
                 },
                 {
-                    title: 'Woman trend'
+                    name: 'Woman trend'
                 },
                 {
-                    title: 'Kids'
+                    name: 'Kids'
                 },
                 {
-                    title: 'T-shirt roadmap'
+                    name: 'T-shirt roadmap'
                 }
+                
             ]
 
         },
     ],
+    
     badges: [
         {
             src: '../public/assetsImg/badge.svg',
